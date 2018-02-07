@@ -11,6 +11,6 @@ class Ibuild < Formula
   depends_on "autoconf"
 
   def install
-    system "make", "install", "PREFIX=${prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end
