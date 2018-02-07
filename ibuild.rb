@@ -2,7 +2,7 @@ class Ibuild < Formula
   desc "Build multi-architecture iOS libraries from build systems like CMake, Make, and Xcode."
   homepage "https://github.com/IMcD23/ibuild"
   url "https://github.com/IMcD23/ibuild/archive/1.0.0.tar.gz"
-  sha256 "2886df4f354afee6c8f79c279eeeccbba3ee6f4076202faec10b08e50d4e59ad"
+  sha256 "707fbe2c68e6aeb5acb940af81038146bb3ade9b39f407197dd34f6f06e11ba2"
   head "https://github.com/IMcD23/ibuild.git"
 
   depends_on :xcode
