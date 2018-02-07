@@ -1,4 +1,4 @@
-class ibuild < Formula
+class Ibuild < Formula
   desc "Build multi-architecture iOS libraries from build systems like CMake, Make, and Xcode."
   homepage "https://github.com/IMcD23/ibuild"
   url "https://github.com/IMcD23/ibuild/archive/1.0.0.zip"
