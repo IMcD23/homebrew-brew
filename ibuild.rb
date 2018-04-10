@@ -12,6 +12,6 @@ class Ibuild < Formula
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
-    bin.libexec "ibuild_search_paths.xcconfig"
+    libexec.install "ibuild_search_paths.xcconfig"
   end
 end
